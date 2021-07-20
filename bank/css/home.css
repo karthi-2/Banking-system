@@ -1,0 +1,57 @@
+*{
+	margin:  0px;
+	padding:  0px;
+}
+body {
+        background-image: url('b6.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+	height: 43px;
+	background-color: black;
+	line-height: 43px;
+	/*font-family: Arial;*/
+	/*font-weight: bold;*/
+	font-size: 20px;
+}
+.logo{
+	float: left;
+	border-right: none;
+	border-left: none;
+
+}
+.sparks{
+	float: left;
+	color: white;
+	border-right: none;
+	border-left: none;
+}
+.contact{
+	border-right: none;
+}
+.create{
+	border-left: 2px solid white;
+}
+li{
+	float: right;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
+
+a{
+	display: block;
+	padding: 0 28px;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: lightsteelblue;
+}
